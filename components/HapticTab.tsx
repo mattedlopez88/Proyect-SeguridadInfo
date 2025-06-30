@@ -1,3 +1,5 @@
+// Componente de tab bar con feedback háptico al presionar en iOS.
+
 import { BottomTabBarButtonProps } from '@react-navigation/bottom-tabs';
 import { PlatformPressable } from '@react-navigation/elements';
 import * as Haptics from 'expo-haptics';
