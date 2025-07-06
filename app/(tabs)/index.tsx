@@ -11,6 +11,7 @@ export default function HomeScreen() {
   const router = useRouter();
   const params = useLocalSearchParams();
   const score = params.score ? Number(params.score) : null;
+  const ageGroup = params.ageGroup; 
 
   return (
     <ThemedView style={{ flex: 1, padding: 16}}>
@@ -36,8 +37,8 @@ export default function HomeScreen() {
         )}
         <Pressable
         style={styles.cuestionario}
-        onPress={() => router.push('/quiz')}>
-          <ThemedText type="subtitle">Comenzar</ThemedText>
+        onPress={() => router.push({ pathname: '/quiz', params: { ageGroup } })}>
+          <ThemedText type="subtitle">Comenzar {ageGroup}</ThemedText>
         </Pressable>
       </SafeAreaView>
     </ThemedView>

@@ -5,10 +5,14 @@
 
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { questions } from '@/constants/questions';
-import { useRouter } from 'expo-router';
+// import { questions } from '@/constants/questions';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { Pressable, StyleSheet, TouchableOpacity, View } from 'react-native';
+
+import { questionsSeniors } from '@/assets/questions/QuestionsAdults';
+import { questionsKids } from '@/assets/questions/QuestionsChildren';
+import { questionsTeens } from '@/assets/questions/QuestionsTeens';
 
 export default function QuizScreen() {
   const router = useRouter();
@@ -16,6 +20,12 @@ export default function QuizScreen() {
   const [selected, setSelected] = useState<number | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [score, setScore] = useState(0);
+  const ageGroup = useLocalSearchParams().ageGroup; // e.g. 'children', 'teen', 'adult'
+
+  // Assign questions array based on ageGroup
+  let questions = questionsKids;
+  if (ageGroup === 'teen') questions = questionsTeens;
+  if (ageGroup === 'adult') questions = questionsSeniors;
 
   useEffect(() => {
     if (current >= questions.length) {

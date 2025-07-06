@@ -1,0 +1,191 @@
+import { Question } from '../../constants/questions';
+
+
+export const questionsKids: Question[] = [
+  {
+    id: 1,
+    pregunta: '¿Qué haces si un extraño en internet te pide tu nombre y dirección?',
+    respuestasIncorrectas: ['Se los digo', 'Le mando un dibujo', 'Juego con él'],
+    respuestaCorrecta: 'No respondo y le aviso a mis papás',
+  },
+  {
+    id: 2,
+    pregunta: 'Si ves un botón que dice "¡Gana un juguete gratis!", ¿qué haces?',
+    respuestasIncorrectas: ['Lo presiono rápido', 'Le digo a mis amigos', 'Le doy mi correo'],
+    respuestaCorrecta: 'No lo toco y cierro la ventana',
+  },
+  {
+    id: 3,
+    pregunta: '¿Dónde es seguro descargar juegos?',
+    respuestasIncorrectas: ['En cualquier página', 'En links de YouTube', 'De anuncios coloridos'],
+    respuestaCorrecta: 'Solo en la tienda de mamá/papá (Play Store o App Store)',
+  },
+  {
+    id: 4,
+    pregunta: '¿Qué no debes publicar en internet?',
+    respuestasIncorrectas: ['Dibujos de dinosaurios', 'Tu comida favorita', 'Tu canción preferida'],
+    respuestaCorrecta: 'Fotos de tu casa o colegio',
+  },
+  {
+    id: 5,
+    pregunta: 'Si alguien te pide una foto tuya por chat, ¿qué haces?',
+    respuestasIncorrectas: ['La envío sonriendo', 'Pido una foto primero', 'Uso un filtro divertido'],
+    respuestaCorrecta: 'No la mando y aviso a un adulto',
+  },
+  {
+    id: 6,
+    pregunta: '¿Qué es un "virus" en la tablet?',
+    respuestasIncorrectas: ['Un juego de zombies', 'Un dibujo animado', 'Un programa para pintar'],
+    respuestaCorrecta: 'Algo que puede dañar el dispositivo o robar información',
+  },
+  {
+    id: 7,
+    pregunta: '¿Cómo creas una contraseña segura para tu juego favorito?',
+    respuestasIncorrectas: ['Usando "1234"', 'Poniendo "password"', 'Con tu nombre'],
+    respuestaCorrecta: 'Mezclando letras y números (ej: "Dino23Estrella")',
+  },
+  {
+    id: 8,
+    pregunta: '¿Qué haces si ves un mensaje feo o de miedo en internet?',
+    respuestasIncorrectas: ['Lo comparto', 'Le respondo', 'Lo guardo en secreto'],
+    respuestaCorrecta: 'Cierro la pantalla y le cuento a mis papás',
+  },
+  {
+    id: 9,
+    pregunta: '¿Es seguro conectarse a Wi-Fi gratis en el centro comercial?',
+    respuestasIncorrectas: ['Sí, siempre', 'Sí, si no pide contraseña', 'Sí, para ver videos'],
+    respuestaCorrecta: 'No, mejor usar el internet de mis papás',
+  },
+  {
+    id: 10,
+    pregunta: '¿Qué es un "amigo falso" en internet?',
+    respuestasIncorrectas: ['Un robot', 'Un personaje de juego', 'Un niño tímido'],
+    respuestaCorrecta: 'Alguien que miente sobre quién es para engañarte',
+  },
+  {
+    id: 11,
+    pregunta: 'Si un juego te pide comprar algo, ¿qué haces?',
+    respuestasIncorrectas: ['Pido la tarjeta de papá', 'Toco la pantalla rápido', 'Pregunto a un amigo'],
+    respuestaCorrecta: 'Le pregunto a mis padres antes de hacer clic',
+  },
+  {
+    id: 12,
+    pregunta: '¿Por qué no debo usar la misma contraseña en todos lados?',
+    respuestasIncorrectas: ['Porque es aburrido', 'Porque se me olvida', 'No pasa nada'],
+    respuestaCorrecta: 'Porque si la adivinan, entrarán a todas mis cuentas',
+  },
+  {
+    id: 13,
+    pregunta: '¿Qué haces si un juego te pide acceso a tu cámara?',
+    respuestasIncorrectas: ['Acepto para jugar', 'Le doy acceso solo una vez', 'Tapo la cámara con un dedo'],
+    respuestaCorrecta: 'No lo permito y busco otro juego seguro',
+  },
+  {
+    id: 14,
+    pregunta: '¿Qué pasa si compartes tu contraseña con un amigo?',
+    respuestasIncorrectas: ['Nada, es mi amigo', 'Podré recuperarla después', 'Solo la ven por un rato'],
+    respuestaCorrecta: 'Podría usarla sin tu permiso o compartirla con otros',
+  },
+  {
+    id: 15,
+    pregunta: '¿Qué es "hacer clic en un enlace peligroso"?',
+    respuestasIncorrectas: ['Jugar a un videojuego', 'Ver un video divertido', 'Abrir un mensaje de mamá'],
+    respuestaCorrecta: 'Tocar un botón que puede instalar virus o engañarte',
+  },
+  {
+    id: 16,
+    pregunta: 'Si tu tablet muestra un anuncio que no puedes cerrar, ¿qué haces?',
+    respuestasIncorrectas: ['Toco todas las partes', 'Grito para que se vaya', 'La apago con un martillo'],
+    respuestaCorrecta: 'Le doy a papá/mamá para que lo cierre correctamente',
+  },
+  {
+    id: 17,
+    pregunta: '¿Por qué no debes hablar con desconocidos en juegos online?',
+    respuestasIncorrectas: ['Porque no saben jugar', 'Porque hablan otro idioma', 'Porque son aburridos'],
+    respuestaCorrecta: 'Porque podrían pedirte información personal o engañarte',
+  },
+  {
+    id: 18,
+    pregunta: '¿Qué haces si pierdes el celular o tablet?',
+    respuestasIncorrectas: ['Espero a que aparezca', 'Pregunto a mis amigos', 'Lloro en un rincón'],
+    respuestaCorrecta: 'Le digo a mis papás para bloquearlo',
+  },
+  {
+    id: 19,
+    pregunta: '¿Qué es "robar información" en internet?',
+    respuestasIncorrectas: ['Copiar tareas del colegio', 'Tomar fotos sin permiso', 'Jugar sin pagar'],
+    respuestaCorrecta: 'Cuando alguien malo consigue tus contraseñas o fotos privadas',
+  },
+  {
+    id: 20,
+    pregunta: 'Si un youtuber pide que le envíes un mensaje, ¿qué haces?',
+    respuestasIncorrectas: ['Le escribo rápido', 'Le mando un meme', 'Le doy "me gusta" al video'],
+    respuestaCorrecta: 'No le envío nada y aviso a mis papás',
+  },
+  {
+    id: 21,
+    pregunta: '¿Qué pasa si descargas una app que no conoces?',
+    respuestasIncorrectas: ['Nada, es divertido', 'Ocupa espacio nada más', 'Se borra sola'],
+    respuestaCorrecta: 'Podría tener virus o gastar dinero sin permiso',
+  },
+  {
+    id: 22,
+    pregunta: '¿Cómo proteges tus fotos en el celular?',
+    respuestasIncorrectas: ['Las borro cada día', 'Las guardo en la nube', 'Las imprimo'],
+    respuestaCorrecta: 'No las comparto y uso contraseñas seguras',
+  },
+  {
+    id: 23,
+    pregunta: '¿Qué es "ser anónimo" en internet?',
+    respuestasIncorrectas: ['Usar un disfraz virtual', 'No poner emojis', 'Tener pantalla oscura'],
+    respuestaCorrecta: 'No mostrar tu nombre real, foto o datos personales',
+  },
+  {
+    id: 24,
+    pregunta: 'Si un juego te pide "permiso para contactos", ¿qué significa?',
+    respuestasIncorrectas: ['Que puedo jugar con amigos', 'Que veré anuncios', 'Que es más divertido'],
+    respuestaCorrecta: 'Que podría acceder a los números de teléfono de tu familia',
+  },
+  {
+    id: 25,
+    pregunta: '¿Qué haces si te llega un mensaje de "Felicitaciones, ganaste"?',
+    respuestasIncorrectas: ['Lo comparto en grupo', 'Doy clic para reclamar', 'Respondo "gracias"'],
+    respuestaCorrecta: 'Lo borro y no lo abro',
+  },
+  {
+    id: 26,
+    pregunta: '¿Por qué no debes decir en qué colegio estás?',
+    respuestasIncorrectas: ['Porque es secreto', 'Porque te regañan', 'Porque no es importante'],
+    respuestaCorrecta: 'Porque alguien podría buscarte en la vida real',
+  },
+  {
+    id: 27,
+    pregunta: '¿Qué es un "filtro divertido" que no debes usar con tu cara real?',
+    respuestasIncorrectas: ['El de perrito', 'El de arcoíris', 'El de bigote'],
+    respuestaCorrecta: 'Cualquiera que pida acceso a tu cámara por mucho tiempo',
+  },
+  {
+    id: 28,
+    pregunta: 'Si un amigo te pide prestado tu celular, ¿qué haces?',
+    respuestasIncorrectas: ['Se lo doy desbloqueado', 'Le digo la contraseña', 'Miro mientras lo usa'],
+    respuestaCorrecta: 'Le pido a un adulto que lo supervise',
+  },
+  {
+    id: 29,
+    pregunta: '¿Qué pasa si subes fotos de tu uniforme del colegio?',
+    respuestasIncorrectas: ['Te felicitan', 'Ganas seguidores', 'Se ve bonito'],
+    respuestaCorrecta: 'Alguien podría saber dónde estudias y buscarte',
+  },
+  {
+    id: 30,
+    pregunta: '¿Qué es "reportar" en redes sociales?',
+    respuestasIncorrectas: ['Compartir un video', 'Dar like', 'Escribir un comentario'],
+    respuestaCorrecta: 'Avisar que algo es malo o peligroso para que lo borren',
+  },
+  {
+    id: 31,
+    pregunta: '¿Qué haces si alguien te hace sentir incómodo en internet?',
+    respuestasIncorrectas: ['Le respondo enojado', 'Lo ignoro un rato', 'Le doy bloqueo por un día'],
+    respuestaCorrecta: 'Lo bloqueo, guardo pruebas y le cuento a mis papás',
+  }
+];
